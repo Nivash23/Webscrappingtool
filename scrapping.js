@@ -79,8 +79,8 @@ const run = async () => {
         searchedProduct.price = productprice;
         searchedProduct.lastcheck = new Date();
 
-          await searchedProduct.save();
-          const html = `<p>Mail from nivashsubash32@gmail.com</p>
+        await searchedProduct.save();
+        const html = `<p>Mail from nivashsubash32@gmail.com</p>
     <p>In flipkart ${productname} price is increased from ${searchedProduct.price} to ${productprice} </p>
     <p>So if you want to buy you can...</p>
     `;
