@@ -108,6 +108,6 @@ const run = async () => {
   await browser.close();
 };
 
-crone.schedule("0 5 * * *", () => {
+crone.schedule("* * * * *", () => {
   run();
 });
