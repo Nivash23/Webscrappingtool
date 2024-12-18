@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev":"nodemon scrapping.js",
-    "postinstall": "npx playwright install"
+    "install": "playwright install"
   },
   "keywords": [],
   "author": "",
